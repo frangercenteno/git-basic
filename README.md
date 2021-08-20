@@ -1,4 +1,4 @@
-# Git Comandos Básicos
+# Git Command Basics
 
 ## Concepts
 
