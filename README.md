@@ -177,3 +177,89 @@ Git is a Version Control System to register our changes to a file or set of file
 ```
 
 ---
+
+## See historical register to all changes. (Include commit reset)
+
+```bash
+	$ git reset --mixed idcommit
+```
+
+---
+
+## File .gitignore
+
+- `.gitignore` is a file that ignore files to git.
+- We should add paths and names files that we would like ignoring. Example: `/node_modules/`.
+- Tip: If you want to ignore all files that have a common name, can be used with *. Example: `idea*`
+
+---
+
+## Create branch
+
+```bash
+	$ git checkout new_branch
+```
+
+---
+
+## Marge Fast Forward or change branch
+
+- You can position yourself on the branch to be merged.
+- Execute the command for fusion with other branch.
+
+```bash
+	$ git marge new_branch
+```
+
+## Delete branch
+
+```bash
+	$ git branch -d new_branch
+```
+
+## Marge with conflict
+
+- Conflict are resolved manually.
+- Then make a commit. [link](#add-files-to-___staging___)
+
+## Observe the structure of marges graphically
+
+```bash
+	$ git log --online --decorate --all --graph
+```
+
+## Tagging commits 
+
+```bash
+	$ git tag name_tag
+```
+
+## Deleted tagging
+
+```bash
+	$ git tag -d name_tag
+```
+
+## Tag previous commit
+
+```bash
+	$ git tag -a name_tag idcommit
+```
+
+## Clone Repository
+
+```bash
+	$ git clone repo_url
+```
+
+## Upload changes to repository
+
+```bash
+	$ git push origin branch
+```
+
+## Update local repository with remote repository
+
+```bash
+	$ git pull origin branch
+```
