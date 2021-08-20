@@ -138,8 +138,9 @@ Git is a Version Control System to register our changes to a file or set of file
 - A command example is ___log___.
 
 ```bash
-  $ git config --global alias.l "log"
+	$ git config --global alias.l "log"
 ```
+
 - Result
 
 ```bash
@@ -220,7 +221,7 @@ Git is a Version Control System to register our changes to a file or set of file
 ## Marge with conflict
 
 - Conflict are resolved manually.
-- Then make a commit. [link](#add-files-to-___staging___)
+- Then make a commit. [link](#user-content-add-files-to-staging--commit)
 
 ## Observe the structure of marges graphically
 
